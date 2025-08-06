@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>質問を追加</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"></script>
+  <script src="firebase.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>質問を追加</h1>
+    <form id="question-form">
+      <label for="question">質問内容：</label>
+      <textarea id="question" required></textarea>
+      <button type="submit">保存</button>
+    </form>
+    <p id="status"></p>
+  </div>
+</body>
+</html>
 
